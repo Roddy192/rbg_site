@@ -1,0 +1,110 @@
+body {
+    background-color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: gray;
+}
+
+
+.upperNavBar {
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    border-style: none;
+    
+}
+.btnUpperNav {
+    align-content: center;
+    font-style: normal;
+    text-decoration: none;
+    border-style: none;
+    
+
+}
+.upperBody {
+    background-color: #E0E0E0;
+    width: 70%;
+    margin-top: 58px;
+    height: 40%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#divUpperText{}
+
+#upperText1 {
+    margin-top: 200px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#upperText2 {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.upperBtn {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    border-style: none;
+    margin-top: 5px;
+}
+
+#btnPortf, #btnCurriculo {
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    a {
+        color: white;
+    }
+}
+
+
+.lowerNavBar {
+    height: 5%;
+
+}
+
+.lowerBody {
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    margin-top: 50px;
+    
+}
+
+#frontSection, #backSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    div {
+        text-align: center;
+    }
+
+
+    h2, p {
+        font-family: "Inter";
+    }
+}
+
+div {
+    border-style: solid;
+    border-width: 1px;
+}

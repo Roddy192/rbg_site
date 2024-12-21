@@ -78,7 +78,15 @@ a {
 
 
 .lowerNavBar {
-    height: 5%;
+    height: 2%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.341);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    border-style: none;
+
 
 }
 
@@ -87,6 +95,8 @@ a {
     width: 70%;
     background-color: white;
     margin-top: 50px;
+    display: grid;
+    grid-template-rows:50% 50%;
     
 }
 

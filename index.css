@@ -31,9 +31,16 @@ a {
     font-style: normal;
     text-decoration: none;
     border-style: none;
+
     
 
 }
+.btnUpperNav:hover {
+    transform: scale(1.5);
+    transition: transform .3s;
+
+}
+
 .upperBody {
     background-color: #E0E0E0;
     width: 70%;

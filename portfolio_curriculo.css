@@ -1,3 +1,4 @@
+/* GERAL - aplicável a todas as páginas */
 body {
     background-color: #E0E0E0;
     margin: 0;
@@ -56,4 +57,64 @@ a {
 
 }
 
+/* Aplicável a Currículo */
 
+.caixaTexto {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+    margin-top: 5%;
+}
+
+/* Aplicável a Portfolio */
+
+.caixaTudo{
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-style: solid;
+    width: 1300px;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.caixaProj {
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    display: flex;
+    img {
+        height: 100%;
+        width: 38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    div {
+        height: 100%;
+        width: 24%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    p {
+        height: 100%;
+        width: 38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    a{
+        background-color: white;
+    }
+    button {
+        margin-top: 35%;
+        margin-left: 20%;
+        height: 20%;
+        width: 60%;
+    }
+
+    
+}

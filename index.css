@@ -76,18 +76,29 @@ a {
     border-radius: 20px;
     width: 100px;
     text-align: center;
+    position: relative;
     a {
         color: white;
     }
 }
+#btnPortf a, #btnCurriculo a{
+    color: white;
+    text-decoration: none;
+}
 
-#btnPortf:hover, #btnCurriculo:hover {
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-    a {
-        color: white;
-    }
+#btnPortf a::after, #btnCurriculo a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0%; /* Inicialmente invisível */
+    background-color: white;
+    transition: width 0.2s;
+}
+
+#btnPortf a:hover::after, #btnCurriculo a:hover::after {
+    width: 100%;
 }
 
 

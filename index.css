@@ -81,6 +81,15 @@ a {
     }
 }
 
+#btnPortf:hover, #btnCurriculo:hover {
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    a {
+        color: white;
+    }
+}
+
 
 .lowerNavBar {
     height: 2%;

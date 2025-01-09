@@ -101,3 +101,16 @@ form {
     border-radius: 5px;
     border-width: 1px;
 }
+
+#BtnEnviar {
+    font-family: "Anton SC", sans-serif;
+    color: white;
+    margin-top: 2%;
+    width: 15%;
+    height: 10%;
+    font-size: 30px;
+    background-color: forestgreen;
+    border-color: forestgreen;
+    border-style: solid;
+    border-radius: 5px;
+}

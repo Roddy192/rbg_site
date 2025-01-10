@@ -29,17 +29,36 @@
 
     <div class="CxCentral">
         <h1>Deixe sua mensagem: </h1>
-        <form action="./mensagem.js">
+        <form id="MForm">
             <label for="MNome">Digite seu nome:</label><br>
             <input type="text" id="MNome" name="MNome"><br>
             <label for="MEmpresa">De qual empresa você faz parte?</label><br>
             <input type="text" id="MEmpresa" name="MEmpresa"><br>
             <label for="MMensagem">Digite sua mensagem:</label><br>
             <input type="text" id="MMensagem" name="MMensagem"><br>
-            <input type="submit" id="BtnEnviar" value="Enviar">
+            <button type="submit">Enviar</button>
         </form>
-
     </div>
+
+    <p id="Output1"></p>
+    <p id="Output2"></p>
+
+    <script>
+        const formulario = document.getElementById('MForm');
+        const output1 = document.getElementById('Output1');
+        const output2 = document.getElementById('Output2');
+
+        formulario.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const nome = document.getElementById('MNome').value;
+            const empresa = document.getElementById('MEmpresa').value;
+            const mensagem = document.getElementById('MMensagem').value;
+
+            output1.textContent = `Olá ${nome}, obrigado por sua mensagagem!`
+            output2.textContent = `"${mensagem}"`
+        });
+    </script>
 
     
 
